@@ -33,14 +33,15 @@ a {
 
 h2 {
    /* mengatur ukuran huruf ke 34 pixel */
-   font-size: 34px;
+   font-size: 40px;
    font-family: 'Lobster', cursive;
-   color: aqua;
+   color: rgb(14, 146, 146);
 }
 
 h1 {
    font-family: 'Lobster', cursive;
    color: aqua;
+   font-size: 50px;
 }
 
 img {
@@ -147,6 +148,7 @@ section {
    padding-bottom: 5px;
    padding-left: 30px;
    border-radius: 10px;
+   font-family: lobster;
 }
 
 
@@ -397,6 +399,10 @@ terkait layout pada CSS untuk dapat memahami secara penuh
 .profile img {
    width: 100px;
    margin-right: 20px;
+   box-shadow: 0 3px 10px -2px #000;
+   border-radius: 50px 50px 50px 50px;
+   aspect-ratio: 1/1;
+   object-fit: cover;
 }
 
 .profile .nama-profile {
@@ -406,6 +412,8 @@ terkait layout pada CSS untuk dapat memahami secara penuh
 /* CONTACT US */
 .contact-us {
    margin-bottom: 20px;
+   background-image: url(../images/bg-review.svg);
+   background-size: cover;
 }
 
 .col-kontak {
@@ -417,6 +425,13 @@ terkait layout pada CSS untuk dapat memahami secara penuh
 
 .col-kontak:hover {
    color: red;
+}
+
+iframe {
+   margin-top: 40px;
+   margin-left: 40px;
+   margin-right: 40px;
+   width: 90%;
 }
 
 /* FOOTER */
