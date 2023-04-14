@@ -9,15 +9,16 @@
     <title>Produk</title>
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 
-    <link rel="stylesheet" href="vendor/bootwatch/sketchy.css">
+    <link rel="stylesheet" href="vendor/bootwatch/quartz.css">
     <link rel="stylesheet" href="vendor/bootsrap-icon/bootstrap-icons.css">
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    
+
     <style>
         section {
-            min-height: 90vh;
+            min-height: 60vh;
         }
 
+        /*
         nav {
             background-color: blueviolet;
         }
@@ -25,7 +26,7 @@
         footer {
             background-color: blueviolet;
         }
-
+*/
         .card img {
             aspect-ratio: 1/1;
             object-fit: cover;
@@ -36,7 +37,7 @@
 
 <body>
 
-    <nav class="navbar navbar-dark navbar-expand-lg bisadicopy">
+    <nav class="navbar navbar-dark bg-info navbar-expand-lg pt-1">
         <div class="container">
             <a class="navbar-brand" href="produk.html">
                 <img src="images/logo/logo_kuy.png" height="50" alt="image">
@@ -46,7 +47,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav11">
-                <ul class="navbar-nav ms-auto">
+                <ul class="navbar-nav ms-auto fs-5">
                     <li class="nav-item active">
                         <a class="nav-link" href="#">Home</a>
                     </li>
@@ -71,15 +72,15 @@
         </div>
     </nav>
 
-    <section class="text-center mt-5 pt-5">
+    <section class="text-center mt-1 pt-1">
         <div class="container">
             <h1>Pilih Produk Anda</h1>
             <p class="fs-5">Kualitas terbaik biji kopi pilihan, fresh diambil langsung dari petani</p>
             <hr class="border border-primary border-3 opacity-75">
 
-            <div class="form-floating w-50 mx-auto mb-5">
+            <div class="form-floating w-30 mx-auto mb-5">
                 <select class="form-select" id="select_kopi" aria-label="Floating label select example">
-                    <option selected="-">-</option>
+                    <option selected disabled="-">-</option>
                     <option value="arabica">Arabica</option>
                     <option value="robusta">Robusta</option>
                 </select>
@@ -133,7 +134,6 @@
         select_kopi.onchange = function () {
             var pilihan = this.value
 
-
             var isi_html = ""
 
             $.get(json2).then(function (data) {
@@ -163,15 +163,8 @@
                 })
 
                 baris_produk.innerHTML = isi_html
-
-
             })
-
-
-
         }
-
-
     </script>
 </body>
 
