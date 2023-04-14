@@ -310,7 +310,7 @@ terkait layout pada CSS untuk dapat memahami secara penuh
       Penulisan width: 800px dan max-width: 100% mengatur agar
       elemen memiliki panjang 800px namun tidak boleh melebihi 100% ukuran layar
    */
-   width: 800px;
+   width: 500px;
    max-width: 100%;
 }
 
@@ -428,7 +428,7 @@ terkait layout pada CSS untuk dapat memahami secara penuh
 }
 
 iframe {
-   margin-top: 40px;
+   margin-top: 10px;
    margin-left: 40px;
    margin-right: 40px;
    width: 90%;
