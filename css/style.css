@@ -75,6 +75,11 @@ nav {
    z-index: 500;
 }
 
+nav .navbar-brand {
+   margin-left: 60px;
+   margin-right: 60px;
+}
+
 /* 
    PERHATIKAN bahwa dalam mengatur elemen, nama elemen langsung ditulis
    sedangkan untuk mengatur class, dibutuhkan tanda titik (.) terlebih dulu
@@ -114,7 +119,7 @@ section {
 .logo {
    /* height mengatur tinggi elemen */
    height: 40px;
-   margin-left: 20px;
+   margin-left: 20pxauto;
 }
 
 .navigasi {
@@ -155,11 +160,11 @@ section {
     pada padding dan margin ditambahkan top / right / bottom / top 
     untuk mengatur jarak masing-masing 
    */
-   padding-top: 80px;
+   padding-top: 90px;
    padding-bottom: 80px;
 
    /* margin mengatur jarak ke luar */
-   margin-bottom: 80px;
+   margin-bottom: 50px;
 }
 
 /* penulisan CSS dapat digabung dengan beberapa elemen */
@@ -203,7 +208,7 @@ section {
    position: relative;
 
    /* background-color mengatur warna latar belakang elemen */
-   background-color: #EEE6DC;
+   background-color: #be9f48;
 }
 
 /* 
@@ -268,12 +273,12 @@ terkait layout pada CSS untuk dapat memahami secara penuh
 .col-produk img:hover {
 
    /* membuat transformasi, bisa berupa scale(1.05), rotate(180deg), translateY(-50px), dsb */
-   transform: scale(0.9);
+   transform: rotate(360deg);
    border-radius: 50%;
 }
 
 .nama-produk {
-   margin-top: 15px;
+   margin-top: 20px;
    font-weight: bold;
 }
 
@@ -417,9 +422,9 @@ terkait layout pada CSS untuk dapat memahami secara penuh
 /* FOOTER */
 
 footer {
-   background-color: #198754;
+   background-color: #2190e0;
    padding-top: 15px;
-   padding-bottom: 15px;
+   padding-bottom: 25px;
    color: #fff;
    padding-right: 40px;
    padding-left: 40px;
