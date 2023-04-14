@@ -412,7 +412,7 @@ terkait layout pada CSS untuk dapat memahami secara penuh
    width: 30%;
    margin-top: 50px;
    /* color mengatur warna tulisan */
-   color: rgb(31, 10, 217);
+   color: rgb(0, 0, 0);
 }
 
 .col-kontak:hover {
