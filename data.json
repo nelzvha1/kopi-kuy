@@ -1,0 +1,62 @@
+{
+    "arabica": [
+        {
+            "foto": "images/produk/product_capuchino.jpg",
+            "nama": "Cappuccino Arabica",
+            "size": "500 Gram",
+            "harga": "200.000",
+            "link": "https://www.google.com/search?q=cappuccino+arabica&tbm=shop"
+        },
+        {
+            "foto": "images/produk/product_espresso.jpg",
+            "nama": "Pahit Arabica",
+            "size": "100 Gram",
+            "harga": "100.000",
+            "link": "https://www.google.com/search?q=pahit+arabica&tbm=shop"
+        },
+        {
+            "foto": "images/produk/product_latte.jpg",
+            "nama": "Latte Arabica",
+            "size": "150 Gram",
+            "harga": "150.000",
+            "link": "https://www.google.com/search?q=latte+arabica&tbm=shop"
+        },
+        {
+            "foto": "https://down-id.img.susercontent.com/file/7ed59aacb18c5146df33e4840da1d8a9",
+            "nama": "Toraja Arabica",
+            "size": "100 Gram",
+            "harga": "69.000",
+            "link": "https://www.google.com/search?q=Toraja+arabica&tbm=shop"
+        }
+    ],
+    "robusta": [
+        {
+            "foto": "images/produk/product_kopi_susu.jpg",
+            "nama": "Kopsus Robusta",
+            "size": "100 Gram",
+            "harga": "500.000",
+            "link": "https://www.google.com/search?q=kopi+susu+robusta&tbm=shop"
+        },
+        {
+            "foto": "images/produk/product_latte.jpg",
+            "nama": "Latte Robusta",
+            "size": "150 Gram",
+            "harga": "150.000",
+            "link": "https://www.google.com/search?q=latte+robusta&tbm=shop"
+        },
+        {
+            "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpFGhbCJOEEwqlUX30w9bjtnYJwYAfm-vTkQ&usqp=CAU",
+            "nama": "Robusta Jember",
+            "size": "100 Gram",
+            "harga": "18.000",
+            "link": "https://www.google.com/search?q=robusta+jember&tbm=shop"
+        },
+        {
+            "foto": "https://images.tokopedia.net/img/cache/100-square/VqbcmM/2022/11/5/b188d167-8fda-4206-91e5-1bcb3f00b370.jpg.webp?ect=4g",
+            "nama": "Java Robusta",
+            "size": "900 Gram",
+            "harga": "69.000",
+            "link": "https://www.tokopedia.com/leitecoffee/kopi-java-robusta-900g-roastedbean-biji-sangrai?extParam=ivf%3Dfalse%26src%3Dsearch%26whid%3D5931369"
+        }
+    ]
+}
