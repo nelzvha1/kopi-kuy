@@ -20,7 +20,7 @@ html {
 
 body {
    /* mendaftarkan semua teks pada body menjadi family Poppins */
-   font-family: 'Poppins';
+   font-family: 'poppins';
 }
 
 a {
@@ -120,7 +120,7 @@ section {
 .logo {
    /* height mengatur tinggi elemen */
    height: 40px;
-   margin-left: 20pxauto;
+   margin-left: 20px;
 }
 
 .navigasi {
@@ -133,6 +133,8 @@ section {
    color: #fff;
    padding-left: 8px;
    padding-right: 8px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: large;
 }
 
 .shop {
@@ -188,12 +190,14 @@ section {
 .subjudul-header {
    /* font-size digunakan untuk mengatur ukuran huruf */
    font-size: 18px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .dapat-dibeli {
    margin-top: 20px;
    margin-bottom: 20px;
    font-size: 14px;
+   font-family: lobster;
 }
 
 .olshop img {
